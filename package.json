@@ -4,7 +4,8 @@
   "description": "Challenge to practice html and css",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/Lara-Vel/202301-w2ch1-lara-velenik#readme",
   "dependencies": {
     "husky": "^8.0.3"
+  },
+  "devDependencies": {
+    "husky": "^8.0.0"
   }
 }
