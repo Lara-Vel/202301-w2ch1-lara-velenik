@@ -10,6 +10,7 @@
 * {
   padding: 0;
   margin: 0;
+  background-color: #1c1938;
 }
 .main-section__background {
   position: relative;
@@ -28,4 +29,12 @@
   left: 0;
   background-color: inherit;
   content: " ";
+}
+
+.main-section__text {
+  color: #fcfdfe;
+}
+
+.main-section__text h1 div {
+  color: #a95ad2;
 }
