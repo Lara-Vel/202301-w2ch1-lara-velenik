@@ -15,8 +15,8 @@
 .main-section__background {
   position: relative;
   display: flex;
-  max-width: 500px;
-  min-height: 350px;
+  max-width: 375px;
+  min-height: 251px;
   width: 100%;
   background: rgba(91 13 111 / 0.5) url(/images/image-header-mobile.jpg);
   background-size: cover;
@@ -37,22 +37,50 @@
   display: flex;
   text-align: center;
   justify-content: center;
-  padding: 2rem;
   flex-wrap: wrap;
+  font-size: 1rem;
+  gap: 12px;
+  width: 62%;
+  width: 62%;
+  padding-top: 2rem;
+  padding-left: 4.2rem;
+  padding-bottom: 0.5rem;
 }
 
-/* .main-section__text-top {
-  display: grid;
-  justify-content: center;
-  padding: 2rem;
-} */
-
-.main-section__text-paragraph {
+.main-section__text-title p {
   display: flex;
-  justify-content: center;
-  padding: 2rem;
+  text-align: center;
+  color: #b1afc4;
+  font-size: 0.8rem;
+  padding-bottom: 2rem;
 }
 
 .main-section__text h1 span {
   color: #a95ad2;
+}
+
+.main-section__text-list {
+  display: flex;
+  justify-content: center;
+  color: #fcfdfe;
+  font-family: "Outfit", sans-serif;
+}
+
+.main-section__text-list ul {
+  list-style: none;
+}
+
+.main-section__text-list .text-list__big {
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.main-section__text-list .text-list__small {
+  font-size: 0.5rem;
+  color: #9f9eb2;
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
 }
