@@ -31,11 +31,28 @@
   content: " ";
 }
 
-.main-section__text {
+.main-section .main-section__text-title {
   color: #fcfdfe;
   font-family: "Outfit", sans-serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 2rem;
+  flex-wrap: wrap;
 }
 
-.main-section__text h1 div {
+/* .main-section__text-top {
+  display: grid;
+  justify-content: center;
+  padding: 2rem;
+} */
+
+.main-section__text-paragraph {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.main-section__text h1 span {
   color: #a95ad2;
 }
